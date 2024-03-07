@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-image: url(g4.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin: 100px 200px;
+                overflow: hidden;
+            }
+             
+            #o{
+                min-height: 300px;
+                width: 400px;
+                transition: all 5s;
+                position: absolute;
+                right: -350px;
+                top: 120px;
+            }
+            #o:hover{
+                position: absolute;
+                right: 0px;
+                transition: all 1s;
+            }
+            #l{
+                height: 300px;
+                width: 50px;
+                float: left;
+            }
+            .a{
+                height: 80px;
+                width: 50px;
+            }
+            #a{
+                height: 140px;
+                width: 50px;
+                background-color: white;
+                text-align: center;
+                padding: 20px 0px;
+                box-sizing: border-box;
+                box-shadow: 0px 0px 15px black;
+                border-radius: 5px 0px 0px 5px;
+                color: red;
+                border: 5px double red;
+            }
+            #r{
+                height: 300px;
+                width: 350px;
+                float: right;
+                background-color: white;
+                padding: 30px;
+                box-sizing: border-box;
+                box-shadow: 0px 0px 15px black;
+                border-radius: 5px;
+            }
+            input{
+                width: 100%;
+                height: 35px;
+                border: none;
+                background-color: rgba(34, 9, 172, 0.167);
+                border-radius: 5px;
+                margin-bottom: 15px;
+                padding-left: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="n">
+            <div id="o">
+            <div id="l">
+                <div class="a"></div>
+                <div id="a">L<br>O<BR>G<BR>I<BR>N</div>
+                <div class="a"></div>
+            </div>
+            <div id="r">
+                <div style="text-align: center; font-size: 30px; margin-bottom: 15px;">LOGIN <b style="color: red;">FORM..</b></div>
+                <input type="text" placeholder="Enter Username"><br>
+                <input type="email" placeholder="Enter Your Email"><BR>
+                <input type="password" placeholder="Enter Your Password"><br>
+                <input type="submit" value="LOGIN" style="background-color: red; color: white;">
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
